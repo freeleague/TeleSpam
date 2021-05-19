@@ -85,11 +85,11 @@ async def main():
         bar.finish()
         print("[+] spam successful")
     except rpcerrorlist.ChatAdminRequiredError:
-        print("[!] You do not have permission to post messages in this chat!")
+        print("[!] У вас нет разрешения на отправку сообщений в этом чате!")
     except ChatWriteForbiddenError:
-        print("[!] You have been restricted to writing messages in this chat...!")
+        print("[!] Вам разрешено писать сообщения в этом чате...!")
     except FloodWaitError:
-        print("[!] try again after one hour")
+        print("[!] попробуйте еще раз через час")
 
 
 with client:
