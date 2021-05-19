@@ -70,8 +70,8 @@ async def main():
     message = input("Ведите текст сообщения: ")
     Several = int(input(" Сколько сообщений вы хотите отправить?\n"))
 
-    print("If you made some mistake with target, this is the last time you can Ctrl-Z")
-    print('Start spaming in 3 sec...')
+    print("Если вы ошиблись с целью, это последний раз, когда вы можете использовать Ctrl-Z")
+    print('Рассылка начнётся через 3 секунды...')
     time.sleep(3)
     print("[+] The spam started")
     bar = progressbar.ProgressBar(
